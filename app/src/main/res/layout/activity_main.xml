@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/green"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tic_tac_toe"
+        android:textSize="40sp"
+
+        android:textColor="@color/white"
+        android:textStyle="bold"
+
+        />
+
+    <GridLayout
+        android:layout_marginTop="200dp"
+         android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:rowCount="3">
+        <Button
+
+            android:id="@+id/one"
+            android:onClick="imp"
+            />
+
+        <Button
+            android:layout_marginStart="11dp"
+            android:id="@+id/two"
+            android:onClick="imp"/>
+        <Button
+            android:layout_marginStart="11dp"
+            android:id="@+id/three"
+            android:onClick="imp"
+            />
+        <Button
+
+            android:id="@+id/four"
+            android:onClick="imp"/>
+        <Button
+            android:layout_marginStart="11dp"
+            android:id="@+id/five"
+            android:onClick="imp"
+            />
+        <Button
+            android:layout_marginStart="11dp"
+            android:id="@+id/six"
+            android:onClick="imp"
+            />
+        <Button
+            android:id="@+id/seven"
+            android:onClick="imp"
+            />
+        <Button
+            android:layout_marginStart="11dp"
+            android:id="@+id/eight"
+            android:onClick="imp"
+            />
+        <Button
+            android:layout_marginStart="11dp"
+            android:id="@+id/nine"
+            android:onClick="imp"
+            />
+    </GridLayout>
+
+
+</LinearLayout>
